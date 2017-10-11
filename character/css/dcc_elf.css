@@ -1,0 +1,286 @@
+/*
+Dungeon Crawl Classics Dwarf Character Class Random Generator
+Designed by Mark Tasaka 2017
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#character_sheet{
+	width: 950px;
+    height: auto;
+	display: block;
+}
+
+#name{
+    position: absolute;
+    top: 155px;
+    left: 90px;
+	font-size: 1.2em;
+}
+
+#occupation{
+    position: absolute;
+    top: 125px;
+    left: 245px;
+	font-size: 1em;
+}
+
+
+#title{
+    position: absolute;
+    top: 228px;
+    left: 160px;
+	font-size: 1em;
+}
+
+#level{
+    position: absolute;
+    top: 228px;
+    left: 65px;
+	font-size: 1em;
+}
+
+
+#actionDie{
+    position: absolute;
+    top: 228px;
+    left:  430px;
+	font-size: 1em;
+}
+
+
+
+#baseArmourClass{
+    position: absolute;
+    top: 310px;
+    left: 125px;
+	font-size: 1.5em;
+}
+
+
+
+#hitPoints{
+	position: absolute;
+    top: 300px;
+    left: 320px;
+	font-size: 1.4em;
+}
+
+
+
+
+#critDie{
+    position: absolute;
+    top: 400px;
+    left:  65px;
+	font-size: 1em;
+}
+
+#critTable{
+    position: absolute;
+    top: 395px;
+    left:  160px;
+	font-family: serif;
+	font-size: 1.3em;
+}
+
+
+
+#fumbleDie{
+    position: absolute;
+    top: 400px;
+    left:  300px;
+	font-size: 1em;
+}
+
+
+#init{
+    position: absolute;
+    top: 290px;
+    left:  540px;
+	font-size: 1.6em;
+}
+
+
+#speed{
+    position: absolute;
+    top: 330px;
+    left:  540px;
+	font-size: 1.6em;
+}
+
+
+#melee{
+    position: absolute;
+    top: 370px;
+    left: 540px;
+	font-size: 1.6em;
+}
+
+
+#range{
+    position: absolute;
+    top: 410px;
+    left:  540px;
+	font-size: 1.6em;
+}
+
+
+#ref{
+    position: absolute;
+    top: 448px;
+    left:  540px;
+	font-size: 1.6em;
+}
+
+#fort{
+    position: absolute;
+    top: 487px;
+    left:  540px;
+	font-size: 1.6em;
+}
+
+#will{
+    position: absolute;
+    top: 526px;
+    left:  540px;
+	font-size: 1.6em;
+}
+
+
+#strength{
+    position:absolute;
+    top: 290px;
+    left: 775px;
+	font-size: 1.6em;
+}
+
+#strengthMod{
+    position:absolute;
+    top: 290px;
+    left: 855px;
+	font-size: 1.6em;
+}
+
+
+#agility{
+    position:absolute;
+    top: 333px;
+    left: 775px;
+	font-size: 1.6em;
+}
+
+#agilityMod{
+    position:absolute;
+    top: 333px;
+    left: 855px;
+	font-size: 1.6em;
+}
+
+
+#stamina{
+    position:absolute;
+    top: 370px;
+    left: 775px;
+	font-size: 1.6em;
+}
+
+#staminaMod{
+    position:absolute;
+    top: 370px;
+    left: 855px;
+	font-size: 1.6em;
+}
+
+
+#personality{
+    position:absolute;
+    top: 410px;
+    left: 775px;
+	font-size: 1.6em;
+}
+
+#personalityMod{
+    position:absolute;
+    top: 410px;
+    left: 855px;
+	font-size: 1.6em;
+}
+
+
+
+
+#intelligence{
+    position:absolute;
+    top: 450px;
+    left: 775px;
+	font-size: 1.6em;
+}
+
+#intelligenceMod{
+    position:absolute;
+    top: 450px;
+    left: 855px;
+	font-size: 1.6em;
+}
+
+
+
+#luck{
+    position:absolute;
+    top: 490px;
+    left: 775px;
+	font-size: 1.6em;
+}
+
+#luckMod{
+    position:absolute;
+    top: 490px;
+    left: 855px;
+	font-size: 1.6em;
+}
+
+#luckySignDescription{
+    position: absolute;
+    top: 735px;
+    left: 330px;
+	font-size: 0.7em;
+	width: 270px;
+}
+
+
+#languages{
+    position: absolute;
+    top: 650px;
+    left: 340px;
+	font-size: 0.65em;
+	width: 290px;
+}
+
+
+#zeroWeapon{
+    position: absolute;
+    top: 608px;
+    left: 340px;
+	font-size: 0.7em;
+	width: 300px;
+}
+
+#knownSpells{
+    position: absolute;
+    top: 680px;
+    left: 710px;
+	font-size: 1.3em;
+}
+
+
+#maxSpells{
+    position: absolute;
+    top: 680px;
+    left: 855px;
+	font-size: 1.3em;
+}
